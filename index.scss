@@ -24,7 +24,7 @@ $dark-icon-color: #fff;
     width: 100%;
     font-size: 16px;
     transition: all 0.3s ease;
-  
+    border-radius: 8px;
     &:focus {
       outline: none;
       border-color: $dark-input-border-color;
@@ -71,7 +71,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-
+border-radius: 10px;
   &.dark-theme {
     background-color: $dark-input-bg-color;
     box-shadow: $dark-input-shadow;
